@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_contact_application/main.dart';
+import 'package:flutter_contact_application/features/bottom_navigation_bar/ui/bottom_navigation_bar.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
