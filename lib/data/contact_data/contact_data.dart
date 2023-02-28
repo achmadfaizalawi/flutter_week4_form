@@ -1,28 +1,6 @@
-class ContactData{
-  List data = [];
+class ContactData {
+  String name;
+  String phone;
 
-  List<String> userName = List.empty(growable: true);
-  List getUsernameContactData() {
-
-    for (var getUsername in data) {
-      userName.add(getUsername['username']);
-    }
-    return userName;
-  }
-
-  List<String> phone = List.empty(growable: true);
-  List getPhoneContactData() {
-    for (var getPhone in data) {
-      phone.add(getPhone['phone']);
-    }
-    return phone;
-  }
-
-  void addDataUserName(String name){
-    data.add(name);
-  }
-
-  void addDataPhone(String phone){
-    data.add(phone);
-  }
+  ContactData({required this.name, required this.phone});
 }
